@@ -1,0 +1,121 @@
+﻿.logo{
+	margin:0px;
+	padding:0px;
+	width:auto;
+	float:left;
+}
+header {
+  border-bottom: 1px solid #cccccc;
+  padding: 15px 0;
+}
+.sign-up{
+	margin-top:4px;
+}
+.listing{
+	padding:0px;
+	margin-top:20px;
+	float:left;
+	width:100%;
+}
+.listing li {
+  list-style: outside none none;
+}
+.box-video {
+  background: none repeat scroll 0 0 #f8f8f8;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+  border-radius:5px;
+  margin:15px 0;
+}
+.player-icon {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+  border-radius: 5px 5px 0 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.image-video {
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  position: relative;
+}
+.player-icon img {
+  left: 40%;
+  position: absolute;
+  top: 34%;
+}
+.image-video:hover .player-icon{
+	display:block;
+}
+.detail {
+  padding: 20px 17px;
+  min-height:80px;
+  display:block;
+}
+.detail  a {
+  font-size: 14px;
+  color: #333;
+}
+.points {
+  display: inline-block;
+  padding: 0 15px 20px;
+  width: 100%;
+}
+.points p {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 7px;
+  color: #ff0000;
+  font-size: 15px;
+}
+.points span{
+	color:#000;
+	font-size:15px;
+}
+.points .btn{
+	padding:6px 20px;
+}
+.progress-custome{
+	width:100%;
+	margin:20px auto;
+	display:inline-block;
+}
+.progress-inner{
+	width:400px;
+	margin:0px auto;
+}
+.progress-custome .progress{
+	height:32px;
+}
+.progress-custome .progress-bar{
+	line-height:32px;
+	font-size:18px;
+}
+
+@media screen and (max-width:1000px) {
+	.listing{
+	text-align:center;
+}
+.listing li{
+	max-width:295px;
+	display:inline-block;
+	float:none;
+}
+.box-video{
+	text-align:left;
+}
+}
+@media screen and (max-width:500px) {
+
+.progress-inner {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+.listing .col-sm-6 {
+	width:100%;
+}
+}
+
